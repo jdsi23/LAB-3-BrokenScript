@@ -3,6 +3,6 @@ provider "aws" {
 }
 
 module "my_bucket" {
-  source = "./modules/s3_bucket"
+  source = "./Modules/s3_bucket"
   bucket_name = "Lab3Correction"
 }
